@@ -37,45 +37,41 @@
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-          <div class="cards">
-            <div class="cards__item">
-              <img class="cards__image" src="./images/cards-attention.png" alt="">
+          <ul class="cards">
+            <li class="cards__item">
+              <img class="cards__image" src="./images/cards-attention.png" alt="Два вида понимания">
               <h3 class="cards__title">Два вида понимания</h3>
               <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-            </div>
-            <div class="cards__item">
-              <img class="cards__image" src="./images/cards-recall.png" alt="">
+            </li>
+            <li class="cards__item">
+              <img class="cards__image" src="./images/cards-recall.png" alt="Вспомнить все">
               <h3 class="cards__title">Recall</h3>
               <p class="cards__description">Вспоминайте изученное - это позволит соединить разрозненные порции памяти.</p>
-            </div>
-            <div class="cards__item">
-              <img class="cards__image" src="./images/cards-interliving.png" alt="">
+            </li>
+            <li class="cards__item">
+              <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
               <h3 class="cards__title">Интерливинг</h3>
               <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-            </div>
-            <div class="cards__item">
-              <img class="cards__image" src="./images/cards-question.png" alt="">
+            </li>
+            <li class="cards__item">
+              <img class="cards__image" src="./images/cards-question.png" alt="Вопросы">
               <h3 class="cards__title">Вопросы</h3>
               <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-            </div>
-            <div class="cards__item">
-              <img class="cards__image" src="./images/cards-competence.png" alt="">
+            </li>
+            <li class="cards__item">
+              <img class="cards__image" src="./images/cards-competence.png" alt="Иллюзия компетентности">
               <h3 class="cards__title">Иллюзия компетентности</h3>
               <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете темой.</p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
 <!--  Секция video  -->
         <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <div class="video__iframe">
-              <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-            </div>
-            <div class="video__iframe">
-              <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-            </div>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
           </div>
         </section>
 <!--  Секция oakley  -->
@@ -94,7 +90,7 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть</p>
-          <a class="feynman__link" href="#">Подробнее &#8594;</a>
+          <a class="feynman__link" href="#">Подробнее &rarr;</a>
           <img class="feynman__img" src="images/feynman.png" alt="Фейман">
         </section>
 <!--  Секция digits  -->
@@ -143,9 +139,9 @@
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
             <h2 class="khan__title">Весь мир - школа</h2>
-            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+            <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
             Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить
-            навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            навыки и знания, которые приносят успех в школе, карьере и жизни.></blockquote>
             <p class="khan__quote-author">Джордж Лукас</p>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
@@ -206,12 +202,12 @@
         <section class="resourses">
           <h2 class="section-title">Полезные ресурсы</h2>
           <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-          <div class="resourses__logo-zone">
-            <img class="resourses__logo" src="./logo/resources-arzamas.svg" alt="">
-            <img class="resourses__logo" src="./logo/resources-n1.svg" alt="">
-            <img class="resourses__logo" src="./logo/resources-strelka.svg" alt="">
-            <img class="resourses__logo" src="./logo/resources-polka.svg" alt="">
-          </div>
+          <ul class="resourses__logo-zone">
+            <li><img class="resourses__logo" src="./logo/resources-arzamas.svg" alt="Арзамаз"></li>
+            <li><img class="resourses__logo" src="./logo/resources-n1.svg" alt="Н плюс один"></li>
+            <li><img class="resourses__logo" src="./logo/resources-strelka.svg" alt="Стрелка"></li>
+            <li><img class="resourses__logo" src="./logo/resources-polka.svg" alt="Полка"></li>
+          </ul>
         </section>
       </main>
 <!--  Блок footer  -->
